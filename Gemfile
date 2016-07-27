@@ -25,6 +25,11 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem "font-awesome-rails"
 gem 'bourbon'
+gem 'devise'     # 회원가입 및 인증
+gem 'rolify'     # role 관리
+gem 'authority'  # 권한설정
+gem 'simple_form'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
