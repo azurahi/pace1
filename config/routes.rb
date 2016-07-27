@@ -1,4 +1,14 @@
 Rails.application.routes.draw do
+  get '/mypage' => 'mypage#index'
+
+  get 'process/step1'
+
+  get 'process/step2'
+
+  get 'process/step3'
+
+  get 'process/step4'
+
   get 'home/index'
   root 'home#index'
   # The priority is based upon order of creation: first created -> highest priority.
