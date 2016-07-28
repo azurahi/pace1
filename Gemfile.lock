@@ -45,6 +45,7 @@ GEM
     bourbon (4.2.7)
       sass (~> 3.4)
       thor (~> 0.19)
+    bower-rails (0.10.0)
     builder (3.2.2)
     byebug (9.0.5)
     coffee-rails (4.1.1)
@@ -171,6 +172,7 @@ PLATFORMS
 DEPENDENCIES
   authority
   bourbon
+  bower-rails (~> 0.10.0)
   byebug
   coffee-rails (~> 4.1.0)
   devise

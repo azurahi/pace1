@@ -2,11 +2,10 @@ Rails.application.routes.draw do
   devise_for :users
   
   root 'home#index'
-  
-  get '/sign_up' => 'home#sign_up'
+
   get '/mypage' => 'mypage#index'
 
-  get 'process/step1'
+  get '/step1' => 'process#index'
 
   get 'process/step2'
 

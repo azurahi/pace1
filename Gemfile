@@ -29,6 +29,7 @@ gem 'devise'     # 회원가입 및 인증
 gem 'rolify'     # role 관리
 gem 'authority'  # 권한설정
 gem 'simple_form'
+gem "bower-rails", "~> 0.10.0"
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

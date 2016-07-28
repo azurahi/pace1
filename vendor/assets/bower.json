@@ -1,0 +1,9 @@
+{
+  "name": "dsl-generated dependencies",
+  "dependencies": {
+    "animate": "latest",
+    "bootstrap": "latest"
+  },
+  "resolutions": {
+  }
+}
